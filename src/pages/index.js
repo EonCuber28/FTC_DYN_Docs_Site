@@ -121,13 +121,13 @@ function HomepageHeader() {
                 <p className="dyn-hero-description">
                     Dynamite (DYN for short) is a scripting language for FTC autonomous.<br/>
                     Write simple scripts, and run them quickly with USB support.<br/>
-                    <u>DYN is compatible with any pather!</u> <small>(no joke)</small><br/>
+                    <u>DYN is compatible with whatever pathing lib that you are using!</u><br/>
                     It can use{' '}
                     <a href="https://pedropathing.com/docs" style={{color: '#1a1a1a', textDecoration: 'underline'}}><b>PedroPathing</b></a>,{' '}
                     <a href="https://learnroadrunner.com/" style={{color: '#1a1a1a', textDecoration: 'underline'}}><b>RoadRunner</b></a>, and even custom pathers!
                 </p>
                 <div className="dyn-buttons">
-                    <Link className="button button--secondary button--lg" to="/docs/intro">
+                    <Link className="button button--secondary button--lg" to="/docs/From Null To Full/Install">
                         Get started with DYN<br/>(From Install to a full auto)
                     </Link>
                 </div>
