@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="4aa6539f-c2f0-4ec9-9a3b-9eaaf2755634" name="Changes" comment="First draft of docs structure." />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;EonCuber28&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/EonCuber28/FTC_DYN_Docs_Site.git&quot;,
+    &quot;accountId&quot;: &quot;1f9e99a2-188e-43b2-bbe7-f0e3827fb680&quot;
+  }
+}</component>
+  <component name="NextEditCompletionFeaturesState">
+    <decayedCancelled>
+      <entry key="MS100" value="1.0433118606313956" />
+      <entry key="MS500" value="1.7021986909470534" />
+      <entry key="S2" value="3.2342754939965017" />
+      <entry key="S5" value="4.8834188086935475" />
+      <entry key="S10" value="6.825422954129099" />
+      <entry key="S30" value="9.833532197982306" />
+      <entry key="S60" value="11.479092799706958" />
+      <entry key="M2" value="13.013589931539482" />
+      <entry key="M5" value="14.94762046669818" />
+      <entry key="M10" value="18.529994470553763" />
+      <entry key="M15" value="22.520120982563068" />
+      <entry key="M30" value="31.21140676579074" />
+      <entry key="H1" value="39.11996036159492" />
+      <entry key="H2" value="51.39564295329282" />
+      <entry key="H4" value="130.73178646926436" />
+      <entry key="D1" value="753.2581042848606" />
+      <entry key="W1" value="1071.2905939066254" />
+    </decayedCancelled>
+    <decayedSelected>
+      <entry key="MS100" value="0.0" />
+      <entry key="MS500" value="0.0" />
+      <entry key="S2" value="0.0" />
+      <entry key="S5" value="0.0" />
+      <entry key="S10" value="0.0" />
+      <entry key="S30" value="0.0" />
+      <entry key="S60" value="8.205202055018951E-251" />
+      <entry key="M2" value="1.7951147805602723E-125" />
+      <entry key="M5" value="3.008598788816817E-50" />
+      <entry key="M10" value="3.74274145306615E-25" />
+      <entry key="M15" value="8.838687991212575E-17" />
+      <entry key="M30" value="2.3980898443601195E-8" />
+      <entry key="H1" value="5.866748470127109E-4" />
+      <entry key="H2" value="0.1189491144012553" />
+      <entry key="H4" value="1.8195020019408956" />
+      <entry key="D1" value="18.23393412677916" />
+      <entry key="W1" value="27.138407699109994" />
+    </decayedSelected>
+    <decayedShown>
+      <entry key="MS100" value="1.0218408130162526" />
+      <entry key="MS500" value="1.6951479597029584" />
+      <entry key="S2" value="3.2310249544665237" />
+      <entry key="S5" value="4.881488847752182" />
+      <entry key="S10" value="6.824080256382923" />
+      <entry key="S30" value="9.832891788825416" />
+      <entry key="S60" value="11.478724327212227" />
+      <entry key="M2" value="13.01338503692042" />
+      <entry key="M5" value="14.947528591401726" />
+      <entry key="M10" value="18.529939015733287" />
+      <entry key="M15" value="22.520076730834823" />
+      <entry key="M30" value="31.211376587999087" />
+      <entry key="H1" value="39.12052743758741" />
+      <entry key="H2" value="51.51451511881834" />
+      <entry key="H4" value="132.55081222253415" />
+      <entry key="D1" value="771.4912835739929" />
+      <entry key="W1" value="1098.428842029913" />
+    </decayedShown>
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 4,
+  &quot;fromUser&quot;: false
+}</component>
+  <component name="ProjectId" id="3ICPJVu8BUR0jl33YrZf7HCOz0U" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
+    &quot;codeWithMe.voiceChat.enabledByDefault&quot;: &quot;false&quot;,
+    &quot;com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;javascript.preferred.runtime.type.id&quot;: &quot;node&quot;,
+    &quot;junie.onboarding.icon.badge.shown&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;npm.startDevServer.executor&quot;: &quot;Run&quot;,
+    &quot;to.speed.mode.migration.done&quot;: &quot;true&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;/home/isaacclark/WebStorm-261.26222.58/plugins/javascript-plugin/jsLanguageServicesImpl/external&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  },
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;postgresql&quot;
+    ]
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/docs/20_DYN Command Help/23_Variable Commands/231_Variable Definitions" />
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/src/pages" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="startDevServer" type="js.build_tools.npm">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="start" />
+      </scripts>
+      <node-interpreter value="$USER_HOME$/.nvm/versions/node/v24.19.0/bin/node" />
+      <envs />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-js-predefined-d6986cc7102b-31caf2ab9e3c-JavaScript-WS-261.26222.58" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="4aa6539f-c2f0-4ec9-9a3b-9eaaf2755634" name="Changes" comment="" />
+      <created>1787265507000</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1787265507000</updated>
+      <workItem from="1787265508042" duration="1188000" />
+      <workItem from="1787266724131" duration="2410000" />
+      <workItem from="1787290713975" duration="6709000" />
+      <workItem from="1787380616482" duration="1976000" />
+      <workItem from="1787456410456" duration="278000" />
+      <workItem from="1787459158605" duration="4646000" />
+      <workItem from="1788832507871" duration="1133000" />
+      <workItem from="1789098497132" duration="45000" />
+      <workItem from="1791531799480" duration="45000" />
+      <workItem from="1791557222223" duration="550000" />
+      <workItem from="1791744163192" duration="9302000" />
+      <workItem from="1792026124377" duration="28000" />
+      <workItem from="1793818473460" duration="28000" />
+      <workItem from="1793818746080" duration="7000" />
+      <workItem from="1794451573378" duration="8000" />
+      <workItem from="1794453061250" duration="646000" />
+      <workItem from="1794510808374" duration="351000" />
+    </task>
+    <task id="LOCAL-00001" summary="Forgot these transfers">
+      <option name="closed" value="true" />
+      <created>1789098536359</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1789098536359</updated>
+    </task>
+    <task id="LOCAL-00002" summary="First draft of docs structure.">
+      <option name="closed" value="true" />
+      <created>1791792543351</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1791792543351</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Forgot these transfers" />
+    <MESSAGE value="First draft of docs structure." />
+    <option name="LAST_COMMIT_MESSAGE" value="First draft of docs structure." />
+  </component>
+</project>

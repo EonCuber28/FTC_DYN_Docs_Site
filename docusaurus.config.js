@@ -45,7 +45,7 @@ const config = {
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/EonCuber28/FTC_DYN_Docs_Site',
+            'https://github.com/EonCuber28/FTC_DYN_Docs_Site/tree/master/',
         },
         blog: {
           showReadingTime: true,
@@ -56,7 +56,7 @@ const config = {
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/EonCuber28/FTC_DYN_Docs_Site',
+            'https://github.com/EonCuber28/FTC_DYN_Docs_Site/tree/master/',
           // Useful options to enforce blogging best practices
           onInlineTags: 'warn',
           onInlineAuthors: 'warn',
@@ -92,7 +92,7 @@ const config = {
           },
           {to: '/blog', label: 'Blog', position: 'left'},
           {
-            href: 'https://github.com/facebook/docusaurus',
+            href: 'https://github.com/EonCuber28/FTC_DYN_Docs_Site',
             label: 'GitHub',
             position: 'right',
           },
@@ -105,8 +105,8 @@ const config = {
             title: 'Docs',
             items: [
               {
-                label: 'Tutorial',
-                to: '/docs/intro',
+                label: 'Directory',
+                to: '/docs/Directory',
               },
             ],
           },
@@ -128,7 +128,7 @@ const config = {
               },
               {
                 label: 'GitHub',
-                href: 'https://github.com/facebook/docusaurus',
+                href: 'https://github.com/EonCuber28/FTC_DYN_Docs_Site',
               },
             ],
           },
