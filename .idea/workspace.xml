@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4aa6539f-c2f0-4ec9-9a3b-9eaaf2755634" name="Changes" comment="First draft of docs structure." />
+    <list default="true" id="4aa6539f-c2f0-4ec9-9a3b-9eaaf2755634" name="Changes" comment="Had claude resolve npm dependency vulnerabilities, and get &quot;npm run build&quot; to run so that prod deployment works good. Also had Claude resolve &quot;edit this page&quot; github links.">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -170,7 +172,7 @@
       <workItem from="1793818746080" duration="7000" />
       <workItem from="1794451573378" duration="8000" />
       <workItem from="1794453061250" duration="646000" />
-      <workItem from="1794510808374" duration="351000" />
+      <workItem from="1794510808374" duration="1156000" />
     </task>
     <task id="LOCAL-00001" summary="Forgot these transfers">
       <option name="closed" value="true" />
@@ -188,7 +190,15 @@
       <option name="project" value="LOCAL" />
       <updated>1791792543351</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Had claude resolve npm dependency vulnerabilities, and get &quot;npm run build&quot; to run so that prod deployment works good. Also had Claude resolve &quot;edit this page&quot; github links.">
+      <option name="closed" value="true" />
+      <created>1794511389929</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1794511389929</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -197,6 +207,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Forgot these transfers" />
     <MESSAGE value="First draft of docs structure." />
-    <option name="LAST_COMMIT_MESSAGE" value="First draft of docs structure." />
+    <MESSAGE value="Had claude resolve npm dependency vulnerabilities, and get &quot;npm run build&quot; to run so that prod deployment works good. Also had Claude resolve &quot;edit this page&quot; github links." />
+    <option name="LAST_COMMIT_MESSAGE" value="Had claude resolve npm dependency vulnerabilities, and get &quot;npm run build&quot; to run so that prod deployment works good. Also had Claude resolve &quot;edit this page&quot; github links." />
   </component>
 </project>
