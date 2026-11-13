@@ -78,7 +78,7 @@ const config = {
         respectPrefersColorScheme: true,
       },
       navbar: {
-        title: 'My Site',
+        title: 'DYN Docs',
         logo: {
           alt: 'My Site Logo',
           src: 'img/logo.svg',
@@ -138,6 +138,7 @@ const config = {
       prism: {
         theme: prismThemes.github,
         darkTheme: prismThemes.dracula,
+        additionalLanguages: ['java'],
       },
     }),
 };

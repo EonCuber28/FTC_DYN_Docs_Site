@@ -1,0 +1,141 @@
+# The DYNOpMode
+
+### For starters
+
+The DYNOpMode is the primary way you will have your Java code interface with the rest of your subsystems.
+
+To start, you want to make a java class and have it `extend` the DYNOpMode class form the DYN package like so.
+```java
+package org.firstinspires.ftc.teamcode;
+
+import com.qualcomm.robotcore.eventloop.opmode.Autonomous;
+import org.firstinspires.ftc.teamcode.dynamite.DynOpMode;
+
+@Autonomous
+public class DynAuto extends DynOpMode{
+
+}
+```
+This will be throwing errors, so add the mandatory functions:
+```java
+package org.firstinspires.ftc.teamcode;
+
+import com.qualcomm.robotcore.eventloop.opmode.Autonomous;
+import org.firstinspires.ftc.teamcode.dynamite.DynOpMode;
+import com.pedropathing.follower.Follower;
+
+@Autonomous
+public class DynAuto extends DynOpMode{
+    @Override
+    public boolean loadFromUSB() {
+        return true;
+    }
+    @Override
+    public String getScriptPath() {
+        return "";
+    }
+
+    @Override
+    public Follower buildFollower() {
+        return null;
+    }
+
+    @Override
+    public void onInit() {}
+    @Override
+    public void onLoop() {}
+}
+```
+You may notice that the `onInit` and `onLoop` (as well as `init` and `onStart`) functions are named differently from a normal FTC OpMode.
+This is done because DYN has critical functions that it needs to run at every point in the OpModes steps. (this is mainly for catching DYN errors)
+
+### Setting the script
+
+If you plan on using a USB for loading and running your DYN scripts, make sure that `loadFromUSB` returns true.
+The `loadFromUSB` function is one of the first things to be called in the `init` step, so your other code will NOT run until DYNs `init` steps are complete.
+
+Also make sure that `getScriptPath` returns the proper path to your script.
+For example, if your `assets` folder looks like this, it would have these mappings:
+```text
+| FS                   | Path
+/assets
+    |->Main.dyn       --> Main.dyn
+    |->/Blue
+    |   |->Right.dyn  --> Blue/Right.dyn
+    |   |->Left.dyn   --> Blue/Left.dyn
+    |->/Red
+        |->Right.dyn  --> Red/Right.dyn
+        |->Left.dyn   --> Red/Left.dyn
+```
+
+So if this OpMode is to run the example Main.dyn code, it would look like so:
+```java
+package org.firstinspires.ftc.teamcode;
+
+import com.qualcomm.robotcore.eventloop.opmode.Autonomous;
+import org.firstinspires.ftc.teamcode.dynamite.DynOpMode;
+import com.pedropathing.follower.Follower;
+
+@Autonomous
+public class DynAuto extends DynOpMode{
+    @Override
+    public boolean loadFromUSB() {
+        return true;
+    }
+    @Override
+    public String getScriptPath() {
+        return "Main.dyn";
+    }
+
+    @Override
+    public Follower buildFollower() {
+        return null;
+    }
+
+    @Override
+    public void onInit() {}
+    @Override
+    public void onLoop() {}
+}
+```
+
+### Linking PP
+
+Now to link Pedro via the `buildFollower` command, you simply use the constructor function from the PP constants file:
+```java
+package org.firstinspires.ftc.teamcode;
+
+// make sure this aligns with where you have PP setup
+import org.firstinspires.ftc.teamcode.pedroPathing.Constants;
+
+import com.qualcomm.robotcore.eventloop.opmode.Autonomous;
+import org.firstinspires.ftc.teamcode.dynamite.DynOpMode;
+import com.pedropathing.follower.Follower;
+
+@Autonomous
+public class DynAuto extends DynOpMode{
+    @Override
+    public boolean loadFromUSB() {
+        return true;
+    }
+    @Override
+    public String getScriptPath() {
+        return "Main.dyn";
+    }
+
+    @Override
+    public Follower buildFollower() {
+        return Constants.create(hardwareMap);
+    }
+
+    @Override
+    public void onInit() {}
+    @Override
+    public void onLoop() {}
+}
+```
+
+Now you are all set to write your init and loop code!
+
+<small>As well as anything for `onInitLoop`, `onStart`, or `onStop`.</small>
+
