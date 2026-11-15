@@ -57,15 +57,15 @@ The `loadFromUSB` function is one of the first things to be called in the `init`
 Also make sure that `getScriptPath` returns the proper path to your script.
 For example, if your `assets` folder looks like this, it would have these mappings:
 ```text
-| FS                   | Path
-/assets
-    |->Main.dyn       --> Main.dyn
+| FS                     | Path
+/assets (or USB root dir)
+    |->Main.dyn         --> Main.dyn
     |->/Blue
-    |   |->Right.dyn  --> Blue/Right.dyn
-    |   |->Left.dyn   --> Blue/Left.dyn
+    |   |->Right.dyn    --> Blue/Right.dyn
+    |   |->Left.dyn     --> Blue/Left.dyn
     |->/Red
-        |->Right.dyn  --> Red/Right.dyn
-        |->Left.dyn   --> Red/Left.dyn
+        |->Right.dyn    --> Red/Right.dyn
+        |->Left.dyn     --> Red/Left.dyn
 ```
 
 So if this OpMode is to run the example Main.dyn code, it would look like so:

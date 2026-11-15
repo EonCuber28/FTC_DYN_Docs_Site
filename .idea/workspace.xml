@@ -4,94 +4,37 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4aa6539f-c2f0-4ec9-9a3b-9eaaf2755634" name="Changes" comment="'The DYNOpMode' doc, and start of structure for 'Inside DYN'. And some slight ordering changes.">
-      <change afterPath="$PROJECT_DIR$/docs/50_Inside DYN/52_DYNCore/521_commands/5210_controlFlow/52100_Condition.mdx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/50_Inside DYN/52_DYNCore/521_commands/5210_controlFlow/52101_For.mdx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/50_Inside DYN/52_DYNCore/521_commands/5210_controlFlow/52102_If.mdx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/50_Inside DYN/52_DYNCore/521_commands/5210_controlFlow/52103_While.mdx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/50_Inside DYN/52_DYNCore/521_commands/5211_function/52110_DynPath.mdx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/50_Inside DYN/52_DYNCore/521_commands/5211_function/52111_jFunc.mdx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/50_Inside DYN/52_DYNCore/521_commands/5211_function/52112_RunPath.mdx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/50_Inside DYN/52_DYNCore/521_commands/5212_math/52120_arithmetic/521200_Add.mdx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/50_Inside DYN/52_DYNCore/521_commands/5212_math/52120_arithmetic/521201_Sub.mdx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/50_Inside DYN/52_DYNCore/521_commands/5212_math/52120_arithmetic/521202_Mux.mdx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/50_Inside DYN/52_DYNCore/521_commands/5212_math/52120_arithmetic/521203_Div.mdx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/50_Inside DYN/52_DYNCore/521_commands/5212_math/52120_arithmetic/521204_Pow.mdx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/50_Inside DYN/52_DYNCore/521_commands/5212_math/52120_arithmetic/521205_Sqrt.mdx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/50_Inside DYN/52_DYNCore/521_commands/5212_math/52120_arithmetic/521206_Increment.mdx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/50_Inside DYN/52_DYNCore/521_commands/5212_math/52120_arithmetic/521207_Decrement.mdx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/50_Inside DYN/52_DYNCore/521_commands/5212_math/52121_trig/521210_Sin.mdx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/50_Inside DYN/52_DYNCore/521_commands/5212_math/52121_trig/521211_iSin.mdx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/50_Inside DYN/52_DYNCore/521_commands/5212_math/52121_trig/521212_Cos.mdx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/50_Inside DYN/52_DYNCore/521_commands/5212_math/52121_trig/521213_iCos.mdx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/50_Inside DYN/52_DYNCore/521_commands/5212_math/52121_trig/521214_Tan.mdx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/50_Inside DYN/52_DYNCore/521_commands/5212_math/52121_trig/521215_iTan.mdx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/50_Inside DYN/52_DYNCore/521_commands/5212_math/52121_trig/521216_ToDeg.mdx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/50_Inside DYN/52_DYNCore/521_commands/5212_math/52121_trig/521217_ToRad.mdx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/50_Inside DYN/52_DYNCore/521_commands/5212_math/52122_MathInCon.mdx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/50_Inside DYN/52_DYNCore/521_commands/5213_movement/52130_bezierStuff/521300_DoBezier.mdx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/50_Inside DYN/52_DYNCore/521_commands/5213_movement/52131_splineStuff/521310_DoSpline.mdx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/50_Inside DYN/52_DYNCore/521_commands/5213_movement/52131_splineStuff/521311_DoSplineLinear.mdx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/50_Inside DYN/52_DYNCore/521_commands/5213_movement/52131_splineStuff/521312_DoSplineSpline.mdx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/50_Inside DYN/52_DYNCore/521_commands/5213_movement/52131_splineStuff/521313_SplineType.mdx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/50_Inside DYN/52_DYNCore/521_commands/5213_movement/52132_GoTo.mdx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/50_Inside DYN/52_DYNCore/521_commands/5213_movement/52133_SetStartPose.mdx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/50_Inside DYN/52_DYNCore/521_commands/5213_movement/52134_TurnTo.mdx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/50_Inside DYN/52_DYNCore/521_commands/5214_random/52140_RngBoolean.mdx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/50_Inside DYN/52_DYNCore/521_commands/5214_random/52141_RngDouble.mdx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/50_Inside DYN/52_DYNCore/521_commands/5214_random/52142_RngFloat.mdx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/50_Inside DYN/52_DYNCore/521_commands/5214_random/52143_RngInteger.mdx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/50_Inside DYN/52_DYNCore/521_commands/5215_telemetry/52150_AddData.mdx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/50_Inside DYN/52_DYNCore/521_commands/5215_telemetry/52151_Clear.mdx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/50_Inside DYN/52_DYNCore/521_commands/5215_telemetry/52152_Update.mdx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/50_Inside DYN/52_DYNCore/521_commands/5216_util/52160_Count.mdx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/50_Inside DYN/52_DYNCore/521_commands/5216_util/52161_Quit.mdx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/50_Inside DYN/52_DYNCore/521_commands/5216_util/52162_HardQuit.mdx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/50_Inside DYN/52_DYNCore/521_commands/5216_util/52163_Sleep.mdx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/50_Inside DYN/52_DYNCore/521_commands/5217_variables/52170_AddVar.mdx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/50_Inside DYN/52_DYNCore/521_commands/5217_variables/52171_Append.mdx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/50_Inside DYN/52_DYNCore/521_commands/5217_variables/52172_Get.mdx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/50_Inside DYN/52_DYNCore/521_commands/5217_variables/52173_Insert.mdx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/50_Inside DYN/52_DYNCore/521_commands/5217_variables/52174_Remove.mdx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/50_Inside DYN/52_DYNCore/521_commands/5217_variables/52175_Set.mdx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/50_Inside DYN/52_DYNCore/521_commands/5217_variables/52176_SetVar.mdx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/50_Inside DYN/52_DYNCore/521_commands/5218_Command.mdx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/50_Inside DYN/52_DYNCore/521_commands/5219_CommandType.mdx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/50_Inside DYN/52_DYNCore/522_tokenizer/5220_Token.mdx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/50_Inside DYN/52_DYNCore/522_tokenizer/5221_Tokenizer.mdx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/50_Inside DYN/52_DYNCore/522_tokenizer/5222_TokenizerException.mdx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/50_Inside DYN/52_DYNCore/522_tokenizer/5223_TokenTypes.mdx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/50_Inside DYN/52_DYNCore/523_variables/5230_complex/52300_DynFieldCord.mdx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/50_Inside DYN/52_DYNCore/523_variables/5230_complex/52301_DynFieldPos.mdx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/50_Inside DYN/52_DYNCore/523_variables/5230_complex/52302_DynJson.mdx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/50_Inside DYN/52_DYNCore/523_variables/5230_complex/52303_DynList.mdx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/50_Inside DYN/52_DYNCore/523_variables/5231_primitives/52310_DynBoolean.mdx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/50_Inside DYN/52_DYNCore/523_variables/5231_primitives/52311_DynNumber.mdx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/50_Inside DYN/52_DYNCore/523_variables/5231_primitives/52312_DynString.mdx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/50_Inside DYN/52_DYNCore/523_variables/5232_Variable.mdx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/50_Inside DYN/52_DYNCore/523_variables/5233_VariableException.mdx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/50_Inside DYN/52_DYNCore/523_variables/5234_VariableTypes.mdx" afterDir="false" />
+    <list default="true" id="4aa6539f-c2f0-4ec9-9a3b-9eaaf2755634" name="Changes" comment="Finish &quot;Inside DYN&quot; section, added some more docs.">
+      <change afterPath="$PROJECT_DIR$/assets/dyn1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/dyn2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/dyn3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/dyn4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/dyn5.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/00_Directory.mdx" beforeDir="false" afterPath="$PROJECT_DIR$/docs/00_Directory.mdx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/docs/10_From Null To Full/11_Install.mdx" beforeDir="false" afterPath="$PROJECT_DIR$/docs/10_From Null To Full/11_Install.mdx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/docs/10_From Null To Full/12_Your First DYN Script.mdx" beforeDir="false" afterPath="$PROJECT_DIR$/docs/10_From Null To Full/12_Your First DYN Script.mdx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/docs/10_From Null To Full/13_The DYNOpMode.mdx" beforeDir="false" afterPath="$PROJECT_DIR$/docs/10_From Null To Full/13_The DYNOpMode.mdx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/50_Inside DYN/51_Inside DYN.mdx" beforeDir="false" afterPath="$PROJECT_DIR$/docs/50_Inside DYN/51_Inside DYN.mdx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/50_Inside DYN/52_DYNCore/520_commandConstructor/5210_PathStartOp.mdx" beforeDir="false" afterPath="$PROJECT_DIR$/docs/50_Inside DYN/52_DYNCore/520_commandConstructor/5200_CommandConstructor.mdx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/50_Inside DYN/52_DYNCore/520_commandConstructor/5211_jFuncOp.mdx" beforeDir="false" afterPath="$PROJECT_DIR$/docs/50_Inside DYN/52_DYNCore/520_commandConstructor/52010_jFuncOp.mdx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/50_Inside DYN/52_DYNCore/520_commandConstructor/5212_MainPathFuncOp.mdx" beforeDir="false" afterPath="$PROJECT_DIR$/docs/50_Inside DYN/52_DYNCore/520_commandConstructor/52011_MainPathFuncOp.mdx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/50_Inside DYN/52_DYNCore/520_commandConstructor/5213_RunOp.mdx" beforeDir="false" afterPath="$PROJECT_DIR$/docs/50_Inside DYN/52_DYNCore/520_commandConstructor/52012_RunOp.mdx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/50_Inside DYN/52_DYNCore/520_commandConstructor/5214_EndOp.mdx" beforeDir="false" afterPath="$PROJECT_DIR$/docs/50_Inside DYN/52_DYNCore/520_commandConstructor/52013_EndOp.mdx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/50_Inside DYN/52_DYNCore/520_commandConstructor/5215_ExtraOps.mdx" beforeDir="false" afterPath="$PROJECT_DIR$/docs/50_Inside DYN/52_DYNCore/520_commandConstructor/52014_ExtraOps.mdx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/50_Inside DYN/52_DYNCore/520_commandConstructor/521_CommandConstructor.mdx" beforeDir="false" afterPath="$PROJECT_DIR$/docs/50_Inside DYN/52_DYNCore/520_commandConstructor/5201_ConstructorUtils.mdx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/50_Inside DYN/52_DYNCore/520_commandConstructor/522_ConstructorUtils.mdx" beforeDir="false" afterPath="$PROJECT_DIR$/docs/50_Inside DYN/52_DYNCore/520_commandConstructor/5202_MathOp.mdx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/50_Inside DYN/52_DYNCore/520_commandConstructor/523_MathOp.mdx" beforeDir="false" afterPath="$PROJECT_DIR$/docs/50_Inside DYN/52_DYNCore/520_commandConstructor/5203_VariableOp.mdx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/50_Inside DYN/52_DYNCore/520_commandConstructor/524_VariableOp.mdx" beforeDir="false" afterPath="$PROJECT_DIR$/docs/50_Inside DYN/52_DYNCore/520_commandConstructor/5204_ListJsonOp.mdx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/50_Inside DYN/52_DYNCore/520_commandConstructor/525_ListJsonOp.mdx" beforeDir="false" afterPath="$PROJECT_DIR$/docs/50_Inside DYN/52_DYNCore/520_commandConstructor/5205_MoveOp.mdx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/50_Inside DYN/52_DYNCore/520_commandConstructor/526_MoveOp.mdx" beforeDir="false" afterPath="$PROJECT_DIR$/docs/50_Inside DYN/52_DYNCore/520_commandConstructor/5206_FuncLoopIfOp.mdx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/50_Inside DYN/52_DYNCore/520_commandConstructor/527_FuncLoopIfOp.mdx" beforeDir="false" afterPath="$PROJECT_DIR$/docs/50_Inside DYN/52_DYNCore/520_commandConstructor/5207_TelemetryOp.mdx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/50_Inside DYN/52_DYNCore/520_commandConstructor/528_TelemetryOp.mdx" beforeDir="false" afterPath="$PROJECT_DIR$/docs/50_Inside DYN/52_DYNCore/520_commandConstructor/5208_RandomOp.mdx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/50_Inside DYN/52_DYNCore/520_commandConstructor/529_RandomOp.mdx" beforeDir="false" afterPath="$PROJECT_DIR$/docs/50_Inside DYN/52_DYNCore/520_commandConstructor/5209_PathStartOp.mdx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/20_DYN Command Help/21_Command_Intro.mdx" beforeDir="false" afterPath="$PROJECT_DIR$/docs/20_DYN Commands/21_Command_Intro.mdx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/20_DYN Command Help/22_Functions/220_DYN Paths aka Functions.mdx" beforeDir="false" afterPath="$PROJECT_DIR$/docs/20_DYN Commands/22_Functions/220_DYN Paths aka Functions.mdx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/20_DYN Command Help/22_Functions/221_DYN Path Calling.mdx" beforeDir="false" afterPath="$PROJECT_DIR$/docs/20_DYN Commands/22_Functions/221_DYN Path Calling.mdx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/20_DYN Command Help/22_Functions/222_jFunc Calls.mdx" beforeDir="false" afterPath="$PROJECT_DIR$/docs/20_DYN Commands/22_Functions/222_jFunc Calls.mdx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/20_DYN Command Help/23_Variable Commands/230_Variable Definitions/2300_Primitive Variables.mdx" beforeDir="false" afterPath="$PROJECT_DIR$/docs/20_DYN Commands/23_Variable Commands/230_Variable Definitions/2300_Primitive Variables.mdx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/20_DYN Command Help/23_Variable Commands/230_Variable Definitions/2301_Complex Variables.mdx" beforeDir="false" afterPath="$PROJECT_DIR$/docs/20_DYN Commands/23_Variable Commands/230_Variable Definitions/2301_Complex Variables.mdx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/20_DYN Command Help/23_Variable Commands/231_Variable Manipulation.mdx" beforeDir="false" afterPath="$PROJECT_DIR$/docs/20_DYN Commands/23_Variable Commands/231_Variable Manipulation.mdx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/20_DYN Command Help/24_Movement/240_Universal Movement Commands.mdx" beforeDir="false" afterPath="$PROJECT_DIR$/docs/20_DYN Commands/24_Movement/240_Universal Movement Commands.mdx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/20_DYN Command Help/24_Movement/241_Pedro Pathing Commands.mdx" beforeDir="false" afterPath="$PROJECT_DIR$/docs/20_DYN Commands/24_Movement/241_Pedro Pathing Commands.mdx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/20_DYN Command Help/24_Movement/242_RoadRunner Commands.mdx" beforeDir="false" afterPath="$PROJECT_DIR$/docs/20_DYN Commands/24_Movement/242_RoadRunner Commands.mdx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/20_DYN Command Help/25_Control Flow/250_Condition.mdx" beforeDir="false" afterPath="$PROJECT_DIR$/docs/20_DYN Commands/25_Control Flow/250_Condition.mdx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/20_DYN Command Help/25_Control Flow/251_If.mdx" beforeDir="false" afterPath="$PROJECT_DIR$/docs/20_DYN Commands/25_Control Flow/251_If.mdx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/20_DYN Command Help/25_Control Flow/252_While.mdx" beforeDir="false" afterPath="$PROJECT_DIR$/docs/20_DYN Commands/25_Control Flow/252_While.mdx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/20_DYN Command Help/25_Control Flow/253_For.mdx" beforeDir="false" afterPath="$PROJECT_DIR$/docs/20_DYN Commands/25_Control Flow/253_For.mdx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/20_DYN Command Help/26_Telemetry.mdx" beforeDir="false" afterPath="$PROJECT_DIR$/docs/20_DYN Commands/26_Telemetry.mdx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/20_DYN Command Help/27_Utility/270_Count.mdx" beforeDir="false" afterPath="$PROJECT_DIR$/docs/20_DYN Commands/27_Utility/270_Count.mdx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/20_DYN Command Help/27_Utility/271_Quit and HardQuit.mdx" beforeDir="false" afterPath="$PROJECT_DIR$/docs/20_DYN Commands/27_Utility/271_Quit and HardQuit.mdx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/20_DYN Command Help/27_Utility/272_Sleep.mdx" beforeDir="false" afterPath="$PROJECT_DIR$/docs/20_DYN Commands/27_Utility/272_Sleep.mdx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/20_DYN Command Help/28_Math/280_Arithmetic.mdx" beforeDir="false" afterPath="$PROJECT_DIR$/docs/20_DYN Commands/28_Math/280_Arithmetic.mdx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/20_DYN Command Help/28_Math/281_Trigonometry.mdx" beforeDir="false" afterPath="$PROJECT_DIR$/docs/20_DYN Commands/28_Math/281_Trigonometry.mdx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/20_DYN Command Help/29_Random.mdx" beforeDir="false" afterPath="$PROJECT_DIR$/docs/20_DYN Commands/29_Random.mdx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -115,61 +58,61 @@
 }</component>
   <component name="NextEditCompletionFeaturesState">
     <decayedCancelled>
-      <entry key="MS100" value="1.5" />
-      <entry key="MS500" value="1.870553541854306" />
-      <entry key="S2" value="2.136897630439686" />
-      <entry key="S5" value="3.6853090844888396" />
-      <entry key="S10" value="5.673499496652952" />
-      <entry key="S30" value="8.375150652038794" />
-      <entry key="S60" value="11.027648093230681" />
-      <entry key="M2" value="16.83266979314541" />
-      <entry key="M5" value="27.672667850046547" />
-      <entry key="M10" value="40.95106891864562" />
-      <entry key="M15" value="53.497000329094135" />
-      <entry key="M30" value="84.95112011654892" />
-      <entry key="H1" value="145.77714828186134" />
-      <entry key="H2" value="254.03946009404623" />
-      <entry key="H4" value="418.1297674306459" />
-      <entry key="D1" value="1271.8746009250622" />
-      <entry key="W1" value="1876.1265793429004" />
+      <entry key="MS100" value="1.038120384808595" />
+      <entry key="MS500" value="1.8155595609223585" />
+      <entry key="S2" value="3.7585186994083153" />
+      <entry key="S5" value="5.046799941892378" />
+      <entry key="S10" value="6.694029660992012" />
+      <entry key="S30" value="11.63772796901648" />
+      <entry key="S60" value="16.229454324977695" />
+      <entry key="M2" value="23.403454558917268" />
+      <entry key="M5" value="37.03959606029783" />
+      <entry key="M10" value="52.125761742928326" />
+      <entry key="M15" value="65.39294622174536" />
+      <entry key="M30" value="97.88586028383948" />
+      <entry key="H1" value="159.29736675702995" />
+      <entry key="H2" value="268.0149330212877" />
+      <entry key="H4" value="432.64435365611547" />
+      <entry key="D1" value="1287.6172571616646" />
+      <entry key="W1" value="1892.861703571852" />
     </decayedCancelled>
     <decayedSelected>
       <entry key="MS100" value="0.0" />
       <entry key="MS500" value="0.0" />
       <entry key="S2" value="0.0" />
       <entry key="S5" value="0.0" />
-      <entry key="S10" value="3.897708216313179E-275" />
-      <entry key="S30" value="3.390547045927244E-92" />
-      <entry key="S60" value="1.841343815241257E-46" />
-      <entry key="M2" value="1.3569612430873823E-23" />
-      <entry key="M5" value="7.128973124756155E-10" />
-      <entry key="M10" value="2.6700150901130694E-5" />
-      <entry key="M15" value="8.933962406828249E-4" />
-      <entry key="M30" value="0.03026655043099614" />
-      <entry key="H1" value="0.20034038462585532" />
-      <entry key="H2" value="0.6515648096823559" />
-      <entry key="H4" value="1.5347534862069823" />
-      <entry key="D1" value="15.279515233693425" />
-      <entry key="W1" value="28.70442880502668" />
+      <entry key="S10" value="7.725018958156072E-279" />
+      <entry key="S30" value="1.9768172310725406E-93" />
+      <entry key="S60" value="4.446141283261848E-47" />
+      <entry key="M2" value="6.667939174334032E-24" />
+      <entry key="M5" value="5.365332630888549E-10" />
+      <entry key="M10" value="2.316319978511815E-5" />
+      <entry key="M15" value="8.126446466844052E-4" />
+      <entry key="M30" value="0.02886630559465575" />
+      <entry key="H1" value="0.19565125713250392" />
+      <entry key="H2" value="0.6438944626222037" />
+      <entry key="H4" value="1.5256930343583828" />
+      <entry key="D1" value="15.264444292315845" />
+      <entry key="W1" value="28.70038243744358" />
     </decayedSelected>
     <decayedShown>
-      <entry key="MS100" value="1.4896387431555538" />
-      <entry key="MS500" value="1.8679616218143054" />
-      <entry key="S2" value="2.130074857253382" />
-      <entry key="S5" value="3.6638390029656724" />
-      <entry key="S10" value="5.651587434646694" />
-      <entry key="S30" value="8.363360137153936" />
-      <entry key="S60" value="11.020967677672525" />
-      <entry key="M2" value="16.82907254274596" />
-      <entry key="M5" value="27.67111651389819" />
-      <entry key="M10" value="40.95015856435858" />
-      <entry key="M15" value="53.49711870364071" />
-      <entry key="M30" value="84.9807398803837" />
-      <entry key="H1" value="145.97682757840525" />
-      <entry key="H2" value="254.6903546389459" />
-      <entry key="H4" value="419.6639041905623" />
-      <entry key="D1" value="1287.153427645518" />
-      <entry key="W1" value="1904.8308305674404" />
+      <entry key="MS100" value="1.0238294671660977" />
+      <entry key="MS500" value="1.8107776275913599" />
+      <entry key="S2" value="3.75613906606797" />
+      <entry key="S5" value="5.045513950607711" />
+      <entry key="S10" value="6.6931458881246" />
+      <entry key="S30" value="11.63652576014671" />
+      <entry key="S60" value="16.227523252046012" />
+      <entry key="M2" value="23.401508243262512" />
+      <entry key="M5" value="37.038351604617894" />
+      <entry key="M10" value="52.124932557215615" />
+      <entry key="M15" value="65.393027391749" />
+      <entry key="M30" value="97.9140963611179" />
+      <entry key="H1" value="159.4923656888694" />
+      <entry key="H2" value="268.6581617472647" />
+      <entry key="H4" value="434.1694319220882" />
+      <entry key="D1" value="1302.8810133391175" />
+      <entry key="W1" value="1921.56190841373" />
     </decayedShown>
   </component>
   <component name="ProjectColorInfo">{
@@ -193,7 +136,7 @@
     "git-widget-placeholder": "master",
     "javascript.preferred.runtime.type.id": "node",
     "junie.onboarding.icon.badge.shown": "true",
-    "last_opened_file_path": "/home/isaacclark/WebstormProjects/FTC_DYN_Docs_Site/docs/50_Inside DYN/55_DYN for RR",
+    "last_opened_file_path": "/home/isaacclark/WebstormProjects/FTC_DYN_Docs_Site/assets",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -213,15 +156,17 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/assets" />
       <recent name="$PROJECT_DIR$/docs/50_Inside DYN/55_DYN for RR" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/assets" />
       <recent name="$PROJECT_DIR$/docs/20_DYN Command Help/23_Variable Commands/231_Variable Definitions" />
       <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/src/pages" />
     </key>
   </component>
-  <component name="RunManager" selected="npm.build">
+  <component name="RunManager" selected="npm.startDevServer">
     <configuration name="build" type="js.build_tools.npm" nameIsGenerated="true">
       <package-json value="$PROJECT_DIR$/package.json" />
       <command value="run" />
@@ -277,7 +222,9 @@
       <workItem from="1793818746080" duration="7000" />
       <workItem from="1794451573378" duration="8000" />
       <workItem from="1794453061250" duration="646000" />
-      <workItem from="1794510808374" duration="19675000" />
+      <workItem from="1794510808374" duration="20070000" />
+      <workItem from="1794595708549" duration="6057000" />
+      <workItem from="1794703590552" duration="7727000" />
     </task>
     <task id="LOCAL-00001" summary="Forgot these transfers">
       <option name="closed" value="true" />
@@ -319,7 +266,15 @@
       <option name="project" value="LOCAL" />
       <updated>1794539369596</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Finish &quot;Inside DYN&quot; section, added some more docs.">
+      <option name="closed" value="true" />
+      <created>1794561258711</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1794561258711</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -331,6 +286,7 @@
     <MESSAGE value="Had claude resolve npm dependency vulnerabilities, and get &quot;npm run build&quot; to run so that prod deployment works good. Also had Claude resolve &quot;edit this page&quot; github links." />
     <MESSAGE value="Gitignore stuffs for server-side deployment." />
     <MESSAGE value="'The DYNOpMode' doc, and start of structure for 'Inside DYN'. And some slight ordering changes." />
-    <option name="LAST_COMMIT_MESSAGE" value="'The DYNOpMode' doc, and start of structure for 'Inside DYN'. And some slight ordering changes." />
+    <MESSAGE value="Finish &quot;Inside DYN&quot; section, added some more docs." />
+    <option name="LAST_COMMIT_MESSAGE" value="Finish &quot;Inside DYN&quot; section, added some more docs." />
   </component>
 </project>
